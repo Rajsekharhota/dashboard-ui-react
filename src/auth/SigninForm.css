@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Form {
+  border: 2px solid black;
+  height: 600px;
+  width: 1300px;
+  margin: auto;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.board {
+  background-color: #010101;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  color: white;
+}
+.board h2 {
+  font-size: 50px;
+}
+.upper-section h3 {
+  font-weight: 700;
+}
+.signin {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+}
+.upper-section {
+  margin-bottom: 20px;
+}
+.form-section {
+  padding: 13px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.main-section {
+  width: 450px;
+  border-radius: 10px;
+  padding: 10px;
+}
+label {
+  font-weight: 500;
+  font-size: 18px;
+  color: #010101;
+}
+input {
+  border: none;
+  outline: none;
+  border: 0.5px solid #aec0ce;
+  border-radius: 5px;
+  padding: 5px 0;
+  box-sizing: border-box;
+}
+input[type="password"],
+input[type="email"] {
+  font-size: 18px;
+  padding-left: 20px;
+}
+.sign {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 8px 0;
+  background-color: #010101;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.login-with-bt {
+  outline: none;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: white;
+  color: #757575;
+  font-size: 14px;
+  font-weight: 500;
+}
+span {
+  color: blue;
+}
+.register {
+  text-align: center;
+  margin-top: 15px;
+}

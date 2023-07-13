@@ -1,0 +1,76 @@
+.right-container {
+  margin-left: 40px;
+}
+.main-container {
+  display: flex;
+  width: 100%;
+}
+.left-menu {
+  margin-top: 0px;
+  background-color: black;
+  color: white;
+  width: 400px;
+}
+.header {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 20px;
+}
+.menu-items {
+  margin-top: 18px;
+}
+.menu-items ul li {
+  list-style: none;
+  padding: 12px;
+}
+.footer {
+  margin-top: 237px;
+}
+.footer ul li {
+  list-style: none;
+  padding: 12px;
+}
+.pie-value {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.pie-chart {
+  display: flex;
+}
+.pie-chart-information {
+  margin-top: 15px;
+}
+.pie-chart-information p {
+  margin-left: 20px;
+}
+.dot1 {
+  color: green;
+  font-size: 23px;
+}
+.dot2 {
+  color: yellow;
+  font-size: 22px;
+}
+.dot3 {
+  color: orange;
+  font-size: 23px;
+}
+.schedule-1 {
+  border-left: 7px solid green;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+.schedule-2 {
+  border-left: 7px solid blueviolet;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 5px;
+}
+.see-all {
+  font-size: 13px;
+  padding-right: 8px;
+  color: gray;
+}

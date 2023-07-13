@@ -1,0 +1,84 @@
+.container-fluid {
+  width: 100%;
+  background-color: white;
+}
+.dashboard-header {
+  margin-bottom: 5px;
+}
+.search-bar {
+  display: flex;
+  margin-left: 850px;
+  margin-top: -45px;
+}
+
+.search-bar .search-profile {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(151, 149, 149);
+  padding: 8px;
+  width: 280px;
+  margin: 0px 15px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+.search-profile input {
+  width: 250px;
+  border: gray;
+  outline: gray;
+}
+
+.search-bar .search-icon {
+  font-size: 25px;
+}
+
+.search-bar .bell-icon {
+  font-size: 23px;
+  margin-top: 16px;
+  margin-right: 25px;
+}
+
+.search-bar .user-icon {
+  font-size: 23px;
+  margin-top: 16px;
+  margin-right: 8px;
+}
+.cards {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 20px;
+}
+.cards p {
+  margin-top: 20px;
+}
+.cards h3 {
+  margin-top: -8px;
+}
+.card1 {
+  background-color: rgb(178, 234, 178);
+}
+.card2 {
+  background-color: wheat;
+}
+.card3 {
+  background-color: lightpink;
+}
+.card4 {
+  background-color: lightblue;
+}
+.card1,
+.card2,
+.card3,
+.card4 {
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  width: 200px;
+  padding: 13px 10px;
+}
+.icons {
+  float: right;
+  font-size: 30px;
+}
